@@ -1,0 +1,26 @@
+.Container_Yotube_Video{
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Youtube_video{
+    width:655px;
+    height: 380px;
+}
+
+@media screen and (max-width:662px){
+    .Youtube_video{
+        width:400px;
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width:442px){
+    .Youtube_video{
+        width:300px;
+        height: 180px;
+    }
+}

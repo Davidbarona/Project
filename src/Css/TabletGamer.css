@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap%27');
+
+
+.Container_TabletGamer_SVG_Text{
+    width: 100%;
+    display:flex;
+    margin-top: 70px;
+
+}
+
+.SVG_TabletGamerIcon{
+    width: 100px; 
+    height: 100px; 
+    margin-top:20px 
+}
+
+.TabletGamer_Text{
+    color:#ff4a83;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 32px;
+    width: 450px;
+    margin-left: 870px;
+    
+}
+
+.Img_TabletGamer{
+    width: 900px;
+    
+}
+
+.Container_Img_Tablet_Gamer{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.Container_Img_Tablet_Gamer_Mobile{
+    display:none;
+}
+
+
+
+
+
+/* MEDIA QUERIES*/ 
+
+@media screen and (max-width:2000px){
+   
+    .TabletGamer_Text{
+        margin-left: 44vw;
+    }
+
+    .SVG_TabletGamerIcon{
+        margin-left: -1vw;
+    }
+}
+
+@media screen and (max-width:1310px){
+   
+    .TabletGamer_Text{
+        margin-left: 42vw;
+    }
+
+    .SVG_TabletGamerIcon{
+        margin-left: -1vw;
+    }
+}
+
+
+
+@media screen and (max-width:1078px){
+   
+    .Container_Img_Tablet_Gamer_Mobile{
+        display:contents;
+    }
+    .Container_Img_Tablet_Gamer{
+      display:none;
+    }
+    .TabletGamer_Text{
+        margin-left: 30vw;
+    }
+}
+
+
+
+@media screen and (max-width:885px){
+     
+    .Img_TabletGamer{
+        width: 100%;
+    }
+
+    .TabletGamer_Text{
+        width: 340px;
+        margin-left: 0px;
+        display: flex;
+       text-align:right;
+       padding:10px;
+        
+    }
+
+    .SVG_TabletGamerIcon{
+        margin-top: 50px;
+        margin-left: 10px;
+        
+    }
+
+    .Container_TabletGamer_SVG_Text{
+      margin-top:0px;
+      width: 95%;
+      display:flex !important;
+      justify-content: flex-end !important;
+    
+    }
+
+  
+}
+
+@media screen and (max-width:600px){
+    .TabletGamer_Text{
+        font-size: 23px;
+        width: 260px;
+    }
+    .SVG_TabletGamerIcon{
+        width: 50px;
+        height: 50px;
+    }
+}
+
