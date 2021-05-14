@@ -8,7 +8,7 @@ const Image360 = () => {
     return (
         <div className='Container_Img360'>
             <div className='Container_Video_Img360'>
-            <video className ='Video_Img360' autoPlay  muted loop >
+            <video className ='Video_Img360' autoPlay  muted loop playsinline >
                 <source src={videoSrc}
                 type='video/mp4'/>
             </video>

@@ -9,7 +9,7 @@ const MainVideo = () =>{
     return (
         <div className='Container_Video_Banner'>
             <div className='Container_Only_Video'>
-            <video className ='Video_Main' autoPlay  muted loop >
+            <video className ='Video_Main' autoPlay  muted loop  playsinline >
                 <source src={videoSrc}
                 type='video/mp4'/>
             </video>

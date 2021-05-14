@@ -63,6 +63,13 @@ body{
 }
 @media screen and (max-width:620px){
  
+
+        .Video_Main{
+           width: 100%;
+   
+        }
+
+
     .Tittle_Main{
         font-size: 30px;
         width: 400px;
