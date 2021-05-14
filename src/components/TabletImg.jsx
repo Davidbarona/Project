@@ -18,10 +18,10 @@ const TabletImg = () => {
                     <h2 className='Text_AI_SVG' >Software de Inteligencia artificial</h2>
                 </div>
                 <div className='Container_Img_AI_Tablet'>
-                    <img className='Tablet_Img' src={tablet} alt="image not found :( " />
+                    <img className='Tablet_Img' src={tablet} alt="not found :( " />
                 </div>
                 <div className='Container_Img_AI_Tablet_Mobile'>
-                    <img className='Tablet_Img' src={tabletMobile} alt="image not found :( " />
+                    <img className='Tablet_Img' src={tabletMobile} alt=" not found :( " />
                 </div>
 
             </div>

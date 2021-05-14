@@ -16,11 +16,11 @@ const TabletGamer = () => {
             </div>
             <div className='Container_Img_Tablet_Gamer'>
             <img  className='Img_TabletGamer'
-             src={TabletGamerImg} alt="image not found :( " />
+             src={TabletGamerImg} alt="not found :( " />
             </div>
             <div className='Container_Img_Tablet_Gamer_Mobile'>
             <img  className='Img_TabletGamer'
-             src={TabletGamerImgMobile} alt="image not found :( " />
+             src={TabletGamerImgMobile} alt=" not found :( " />
             </div>
            
         </div>
